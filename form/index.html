@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<form action="" method="POST">
+		<table>
+			<tr>
+				<th>Choose Strain Type: <br></th>
+				<td>
+					<select name="Strain">
+						<option value="Indica">Indica</option>
+						<option value="Sativa">Sativa</option>
+						<option value="Hybrid">Hybrid</option>
+						<option value="Ruderalis">Ruderalis</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Grams: <br></th>
+				<td>
+					<input type="radio" name="grams" value=".5g">.5g <br>
+					<input type="radio" name="grams" value="1g">1g <br>
+					<input type="radio" name="grams" value="2g">2g <br>
+					<input type="radio" name="grams" value="3.5">3.5g <br>
+					<input type="radio" name="grams" value="1/2 oz">1/2 oz <br>
+					<input type="radio" name="grams" value="Oz">Oz 
+
+				</td>
+			</tr>
+			<tr>
+				<th>Extras: <br></th>
+				<td>
+					<input type="checkbox" name="extras" value="pre-rolls">pre-rolls <br>
+					<input type="checkbox" name="extras" value="grinder" checked="checked">grinder <br>
+					<input type="checkbox" name="extras" value="lighter">lighter
+				</td>
+			</tr>
+			<tr>
+				<th>Ship to:</th>
+				<td>
+					<table>
+						<tr>
+							<td>Name: <br></td>
+							<td><input type="text" name="name"></td>
+						</tr>
+						<tr>
+							<td>Address: <br></td>
+							<td><input type="text" name="address"></td>
+						</tr>
+						<tr>
+							<td>City: <br></td>
+							<td><input type="text" name="city"></td>
+						</tr>
+						<tr>
+							<td>State: <br></td>
+							<td><input type="text" name="state"></td>
+						</tr>
+						<tr>
+							<td>Zip: <br></td>
+							<td><input type="text" name="zip"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<th>Customer Comments:</th>
+				<td>
+					
+	<textarea name="comments" rows="10" cols="48">Here</textarea>
+				</td>
+			</tr>
+
+		</table>
+		</form>
+<div id="mike">
+	<p id="click">
+		Click Joint To Roll Order:
+	</p>
+	<p>
+		<a href="form.html"><img src="../img/joint.gif"></a> 
+	</p>
+</div>
+	
+</div>
+</body>
+</html>

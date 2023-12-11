@@ -1,0 +1,20 @@
+body {
+	background-color: #a4d19f;
+}
+form {
+	border: 2px solid black;
+	margin: 30px 120px 0px 120px
+}
+#mike {
+	position: absolute;
+	top: 15px; 
+	right: 150px; 
+}
+#mike img {
+	height: 200px;
+}
+#click {
+	position: absolute;
+	top: 30px;
+	right: 25px;
+	font-size: 100%
